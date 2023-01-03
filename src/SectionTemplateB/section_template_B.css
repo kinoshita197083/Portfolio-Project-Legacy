@@ -1,0 +1,36 @@
+@import url(../shared_style.css);
+
+.background-pink {
+    background-color: rgb(252, 236, 239);
+    /* background: linear-gradient(rgb(255, 255, 255, 1), rgb(250, 224, 229)) */
+}
+
+.left-wrapper {
+    width: 100%;
+    /* background-color: aqua; */
+    /* height: 25rem; */
+}
+
+.right-wrapper {
+    width: 90%;
+    /* background-color: aquamarine; */
+    height: max-content;
+    padding-left: 15%;
+    text-align: left;
+}
+
+.showcase-intro h1 {
+    font-size: var(--font-size-subheading);
+    font-weight: normal;
+    color: black;
+}
+
+.showcase-intro h4 {
+    font-weight: normal;
+    color: var(--font-color-subheading);
+}
+
+.showcase-intro p {
+    color: var(--font-color-body);
+    line-height: 2rem;
+}

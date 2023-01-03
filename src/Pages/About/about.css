@@ -1,0 +1,10 @@
+@import url(../../shared_style.css);
+
+.profile-content {
+    font-size: var(--font-size-subheading);
+}
+
+.profile-header {
+    color: var(--font-color-subheading);
+    font-weight: normal;
+}

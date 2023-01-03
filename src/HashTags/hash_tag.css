@@ -1,0 +1,15 @@
+.container-hashtag {
+    padding: 0% 8% 8% 8%;
+}
+
+.tag {
+    color: rgb(74, 130, 235);
+    margin-block: 0;
+    cursor: pointer;
+    padding: 0% 0.2%;
+    transition: 0.2s ease;
+}
+
+.tag:hover {
+    color: rgb(15, 53, 124);
+}

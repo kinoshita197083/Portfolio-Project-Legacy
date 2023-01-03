@@ -1,12 +1,22 @@
-import React, { Component } from 'react'
+import React, { useEffect } from 'react'
 import HeroSection from '../../HeroSection/hero_section'
+import SectionTemplateA from '../../SectionTemplateA/section_template_A'
 import './home.css'
 
 export default function HomePage() {
 
+    const defaultPosition = () => {
+        window.scrollTo(0, 0);
+    };
+
+    useEffect(
+        defaultPosition
+    );
+
     return (
         <main className='home'>
             <HeroSection />
+            <SectionTemplateA />
             {/* <section className='main-section'>
                 <div className='container'>
                     <div className='even-columns'>

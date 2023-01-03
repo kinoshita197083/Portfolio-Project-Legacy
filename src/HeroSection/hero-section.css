@@ -12,11 +12,12 @@ h1 {
 
 .hero-main {
     /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('https://anythingfrenkie.s3.ap-southeast-2.amazonaws.com/F8C168AD-333D-479C-A1A9-64D55A37C7D3-1711-000000E1CD517750.jpg'); */
-    /* background-color: rgb(215, 221, 244); */
     background-color: #f5f2f2;
     /* background-size: cover; */
     height: max-content;
     padding-bottom: 4em;
+    position: relative;
+    overflow: hidden;
 }
 
 .background-circle {
@@ -34,7 +35,10 @@ h1 {
 }
 
 .small {
-    opacity: 0.7;
+    background-color: rgb(248, 223, 82);
+    height: 29%;
+    opacity: 0.4;
+    bottom: 0%;
 }
 
 .heading {
@@ -52,12 +56,17 @@ h1 {
     text-align: left;
 }
 
-/* @media (max-width: 800px) {
-    .heading {
-        font-size: 1.8rem;
+@media (max-width: 800px) {
+
+    .small {
+        height: 19%;
+        width: 35%;
+        opacity: 0.3;
+        display: none;
     }
 
-    .sub-heading {
-        font-size: 1rem;
+    .large {
+        right: 11%;
+        /* width: 15rem; */
     }
-} */
+}

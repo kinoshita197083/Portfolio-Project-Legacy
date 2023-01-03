@@ -1,0 +1,35 @@
+@import url(../shared_style.css);
+
+.profile-photo-container {
+    height: max-content;
+    padding-left: 5%;
+}
+
+.profile-pic {
+    width: 100%;
+    height: auto;
+}
+
+.photo-wrapper {
+    width: 20rem;
+    border-radius: 45px;
+    position: relative;
+}
+
+.photo-wrapper p {
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+
+.photo-background {
+    background-color: aquamarine;
+    height: 14rem;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    bottom: 2%;
+}

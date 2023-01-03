@@ -24,7 +24,7 @@ export default function HeroSection() {
                     <h1 className='heading animate__animated animate__fadeIn'>Hey! my name is Franky</h1>
                     <h3 className='sub-heading'>A fresh grad, who's keen to be a frontend developer</h3>
 
-                    <div className='background-circle large top right animate__animated animate__flipInX' />
+                    <div className='background-circle large animate__animated animate__flipInX' />
                     <div className='background-circle small' />
                 </div>
             </article>

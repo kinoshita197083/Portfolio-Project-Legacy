@@ -1,0 +1,51 @@
+@import url(../shared_style.css);
+
+.skill-section {
+    height: max-content;
+    background-color: rgb(248, 248, 248);
+    margin: 9% 3%;
+    box-shadow: 0px 0px 2px rgb(93, 93, 94);
+    border-radius: 6px;
+}
+
+.skill-section-card {
+    padding: 10% 5%;
+}
+
+.skill-section:hover {
+    box-shadow: 0px 0px 3px rgb(31, 31, 31);
+}
+
+.skill-section i {
+    font-size: 2rem;
+}
+
+.skill-section-intro {
+    margin: 3% 10%;
+}
+
+.skill-section-intro h1 {
+    font-size: var(--font-size-subheading);
+    font-weight: normal;
+}
+
+.skill-section-header {
+    margin-bottom: 10%;
+}
+
+.skill-section-item {
+    background-color: rgb(217, 217, 217);
+    /* background-color: black; */
+    margin: 3% auto;
+    /* margin-block: 3%; */
+    padding: 2%;
+    border-radius: 15px;
+    width: 40%;
+    transition: 0.2s;
+}
+
+.skill-section-item:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
