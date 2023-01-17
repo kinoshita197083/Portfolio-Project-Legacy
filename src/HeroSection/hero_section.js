@@ -21,11 +21,16 @@ export default function HeroSection() {
         <section className='hero-main'>
             <article>
                 <div className='container'>
-                    <h1 className='heading animate__animated animate__fadeIn'>Hey! my name is Franky</h1>
-                    <h3 className='sub-heading'>A fresh grad, who's keen to be a frontend developer</h3>
+                    <div >
+                        <h1 className='heading animate__animated animate__fadeIn'>Hey<span className='h1-span'>!</span> my name is Franky</h1>
+                        <h3 className='sub-heading'>A fresher, who has a keen interest in frontend development</h3>
+                        <a href='https://anythingfrenkie.s3.ap-southeast-2.amazonaws.com/CV_SAAC03_updated.pdf' target='_blank'>
+                            <div className='btn classic main-section-positioned'>Resume</div>
+                        </a>
 
-                    <div className='background-circle large animate__animated animate__flipInX' />
-                    <div className='background-circle small' />
+                        <div className='background-circle large animate__animated animate__flipInX' />
+                        <div className='background-circle small' />
+                    </div>
                 </div>
             </article>
         </section>

@@ -1,10 +1,21 @@
 @import url(../../shared_style.css);
 
-.profile-content {
+.profile-header {
+    font-weight: normal;
     font-size: var(--font-size-subheading);
 }
 
-.profile-header {
+.profile-subheader {
     color: var(--font-color-subheading);
     font-weight: normal;
+}
+
+@media (max-width: 800px) {
+    .profile-header {
+        margin-top: 10%;
+    }
+
+    .text-align-left {
+        text-align: left;
+    }
 }

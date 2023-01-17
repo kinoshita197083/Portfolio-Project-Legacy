@@ -1,0 +1,70 @@
+@import url(../../shared_style.css);
+
+.resume-page-main {
+    animation: fadeInAnimation 0.3s ease;
+}
+
+.cv-preview-img {
+    width: 100%;
+    height: auto;
+}
+
+.cv-btn-frame {
+    text-align: center;
+    margin-block: 5%;
+}
+
+.cv-preview-wrapper {
+    width: 25rem;
+    border: 1px solid black;
+    /* margin: 0 15%; */
+    margin: 0 auto 30px auto;
+}
+
+.cv-download-btn {
+    width: 8rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    background-color: rgb(16, 16, 16);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cv-download-btn {
+    text-decoration: none;
+    color: white;
+}
+
+.cv-download-btn:hover {
+    background-color: rgb(86, 85, 85);
+    transition: 0.2s;
+}
+
+.resume-page-intro {
+    margin-bottom: 5%;
+}
+
+.resume-page-positioned {
+    background-color: rgb(253, 236, 182);
+    border-radius: 46px;
+    right: 6%;
+    top: 13%;
+    z-index: -2;
+    opacity: 0.3;
+    transform: rotate(15deg);
+    animation: rotation 0.9s ease;
+}
+
+@media (max-width: 800px) {
+    .resume-page-positioned {
+        width: 6.5rem;
+        height: 5rem;
+        top: 11.1%;
+        left: 9%;
+    }
+
+    .cv-preview-wrapper {
+        width: 19.5rem;
+    }
+}

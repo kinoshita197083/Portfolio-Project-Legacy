@@ -3,6 +3,9 @@
     --font-color-body: rgb(37, 37, 37)k;
 
     --font-size-subheading: 2.5rem;
+    --font-size-subheading-mobile: 1.5rem;
+    --font-size-ul: 1.2rem;
+    --font-size-ul-mobile: 0.8rem;
 }
 
 @keyframes fadeInAnimation {
@@ -32,4 +35,86 @@
 
 .container-padding-left-0 {
     padding: 5% 8% 4% 0%;
+}
+
+.btn {
+    width: max-content;
+    padding: 0.5% 3.5%;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    height: 2rem;
+    transition: 0.2s;
+}
+
+.main-section-positioned {
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+}
+
+.center-positioned {
+    margin: 0 auto;
+}
+
+.section-ul {
+    text-align: left;
+    line-height: 250%;
+    font-size: var(--font-size-ul);
+}
+
+a {
+    text-decoration: none;
+}
+
+.classic {
+    background-color: rgb(238, 176, 186);
+    color: white;
+}
+
+.classic:hover {
+    background-color: rgb(240, 140, 155);
+    color: black;
+    transition: 0.2s;
+}
+
+.mint {
+    background-color: rgb(137, 196, 244);
+    color: white;
+}
+
+.mint:hover {
+    background-color: rgb(89, 154, 239);
+    color: black;
+    transition: 0.2s;
+}
+
+.margin-block-3 {
+    margin-block: 5%;
+}
+
+.padding-0-8 {
+    padding: 0 8%;
+}
+
+@media (max-width: 800px) {
+    .btn {
+        bottom: 8%;
+        left: 9%;
+        height: 3rem;
+        width: 9rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-section-positioned {
+        bottom: 6%;
+        left: 8%;
+    }
+
+    .section-ul {
+        font-size: var(--font-size-ul-mobile);
+        margin-top: 15%;
+    }
 }

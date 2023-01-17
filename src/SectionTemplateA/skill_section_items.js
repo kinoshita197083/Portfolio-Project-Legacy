@@ -1,7 +1,7 @@
 export const skillsItems = [
     {
         sub_heading: 'Frontend',
-        icon: 'fa-solid fa-code fa-beat',
+        icon: 'fa-solid fa-code',
         // contents: 'Test',
         skills: [
             'React',
@@ -13,7 +13,7 @@ export const skillsItems = [
     },
     {
         sub_heading: 'Backend & Database',
-        icon: 'fa-solid fa-database fa-beat',
+        icon: 'fa-solid fa-database',
         // contents: 'Test',
         skills: [
             'Java',
@@ -25,7 +25,7 @@ export const skillsItems = [
     },
     {
         sub_heading: 'Cloud & Tech',
-        icon: 'fa-solid fa-layer-group fa-beat',
+        icon: 'fa-solid fa-layer-group',
         // contents: 'Test',
         skills: [
             'AWS',

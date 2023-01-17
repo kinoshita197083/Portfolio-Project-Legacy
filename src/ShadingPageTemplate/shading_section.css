@@ -1,0 +1,30 @@
+.badge-showcase {
+    margin: 10% auto;
+    gap: 5%;
+}
+
+.badge-wrapper {
+    width: 15rem;
+}
+
+.badge-wrapper:hover {
+    cursor: pointer;
+}
+
+.badge-column-gap-adjusted {
+    padding-left: 5%;
+}
+
+.background-color-aliceblue {
+    background-color: aliceblue;
+}
+
+@media (max-width: 800px) {
+    .badge-column-gap-adjusted {
+        padding-left: 2%;
+    }
+
+    .container {
+        height: max-content;
+    }
+}

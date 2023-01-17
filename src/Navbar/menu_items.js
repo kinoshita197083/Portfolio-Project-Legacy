@@ -11,8 +11,9 @@ export const MenuItems = [{
     className: "nav_item",
     url: "/Projects"
 },
-{
-    item: "Resume",
-    className: "nav_item",
-    url: "/Resume"
-}]
+    // {
+    //     item: "Resume",
+    //     className: "nav_item",
+    //     url: "/Resume"
+    // },
+]
