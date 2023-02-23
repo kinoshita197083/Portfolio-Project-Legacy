@@ -9,7 +9,7 @@ export default function ShadingSection(props) {
 
     return (
         <>
-            <div className='container background-color-aliceblue'>
+            <div className='container background-color-aliceblue' style={{ backgroundColor: props.shading_color, transition: '0.2s' }}>
                 <div className='even-columns'>
                     <section className='shading-section-main'>
                         <div className='shading-section-intro'>

@@ -10,7 +10,15 @@
     font-weight: normal;
 }
 
+.left-wrapper {
+    margin-top: 10%;
+}
+
 @media (max-width: 800px) {
+    .left-wrapper {
+        margin-top: 0%;
+    }
+
     .profile-header {
         margin-top: 10%;
     }

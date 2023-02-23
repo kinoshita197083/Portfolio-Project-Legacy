@@ -7,6 +7,7 @@ import HomePage from './Pages/Home/home';
 import ProjectPage from './Pages/Projects/projects';
 import ResumePage from './Pages/Resume/resume';
 import AboutPage from './Pages/About/about'
+import UnavailablePage from './Pages/404/404';
 // import HeroSection from './HeroSection/hero_section';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/Projects' element={<ProjectPage />} />
           <Route path='/Resume' element={<ResumePage />} />
           <Route path='/About' element={<AboutPage />} />
+          <Route path='/NotFound' element={<UnavailablePage />} />
         </Routes>
       </Router>
       <Footer />

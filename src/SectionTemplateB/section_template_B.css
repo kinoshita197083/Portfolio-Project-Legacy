@@ -34,3 +34,21 @@
     color: var(--font-color-body);
     line-height: 2rem;
 }
+
+.btn-showcase-positioned {
+    margin-block: 5%;
+}
+
+@media (max-width: 800px) {
+    .right-wrapper {
+        padding-left: 8%;
+    }
+
+    .showcase-intro h1 {
+        font-size: var(--font-size-subheading-mobile);
+    }
+
+    .btn-showcase-positioned {
+        margin: 7% auto;
+    }
+}

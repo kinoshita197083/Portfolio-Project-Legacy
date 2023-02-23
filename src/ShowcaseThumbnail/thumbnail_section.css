@@ -1,0 +1,61 @@
+.thumbnail-container {
+    padding: 8%;
+    background-color: antiquewhite;
+}
+
+.thumbnail-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.thumbnail {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(93, 93, 94);
+    width: 17rem;
+    overflow: hidden;
+    height: 10.6rem;
+    position: relative;
+    background-color: black;
+}
+
+.thumbnail:hover {
+    box-shadow: 1px 0px 2px rgb(63, 62, 62);
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.thumbnail:hover .overlay {
+    opacity: 0.8;
+}
+
+.thumbnail:not(:hover) {
+    transition: 0.2s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #363535;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-name {
+    font-size: var(--font-size-thumbnail);
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .thumbnail-wrapper {
+        gap: 40px;
+        padding: 8%
+    }
+}

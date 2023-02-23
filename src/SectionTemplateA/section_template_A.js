@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { } from 'react'
 import ShadingSection from '../ShadingPageTemplate/shading_section'
 import './section_template_A.css'
 import { skillsItems } from './skill_section_items'
@@ -13,7 +13,7 @@ const p2 = "However, I happened to find this serendipity during several project 
 const heading2 = "Skills";
 const p3 = "I have both full stack and Android App experience using .Net MVC and Java, respectively. Whilst cloud computing is one of my major skillsets, passing the AWS SAA-C03 exam with the score of 808/1000 on my first attempt.";
 
-export default function SectionTemplateA() {
+export default function SectionTemplateA(props) {
 
     return (
         <>
@@ -25,11 +25,13 @@ export default function SectionTemplateA() {
                         <p className='section-p1'>{p2}</p>
                     </div>
 
-                    <ShadingSection />
+                    <ShadingSection
+                        shading_color={props.shading}
+                    />
 
                     <div className='skill-section-intro'>
-                        <h1 className='section-heading heading-margin-adjusted'>{heading2}</h1>
-                        <p className='section-p1'>{p3}</p>
+                        <h1 className='section-heading heading-margin-adjusted' style={{ color: props.header_color }}>{heading2}</h1>
+                        <p className='section-p1' style={{ color: props.p1_color }}>{p3}</p>
                     </div>
 
                     <div className='even-columns'>
@@ -53,7 +55,7 @@ export default function SectionTemplateA() {
 
                     </div>
                     <Link to='/Projects'>
-                        <div className='btn classic center-positioned'>Projects</div>
+                        <div className='btn transparent center-adjusted'>Projects</div>
                     </Link>
                 </div>
             </section>

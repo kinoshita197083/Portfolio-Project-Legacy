@@ -12,8 +12,8 @@ export const MenuItems = [{
     url: "/Projects"
 },
     // {
-    //     item: "Resume",
+    //     item: "404",
     //     className: "nav_item",
-    //     url: "/Resume"
+    //     url: "/NotFound"
     // },
 ]

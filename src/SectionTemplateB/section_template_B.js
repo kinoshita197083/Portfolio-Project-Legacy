@@ -14,10 +14,13 @@ export default function SectionTemplateB(props) {
                 <div className='even-columns'>
                     <div className='left-wrapper'>
                         <div className='templateB-img-wrapper'>
-                            <img src={props.img}
-                                alt='img-showcase'
-                                width='100%'
-                                height='auto' />
+                            <a href={props.url} target='_blank'>
+                                <img src={props.img}
+                                    alt='img-showcase'
+                                    width='100%'
+                                    height='auto' />
+                            </a>
+
                         </div>
                         <TagBubblesSection
                             items={props.items}
@@ -35,6 +38,10 @@ export default function SectionTemplateB(props) {
                             items={props.hashtags}
                             scroll={props.scroll}
                         />
+
+                        <a href={props.url} target='_blank'>
+                            <div className='btn mint btn-showcase-positioned'>Visit Website</div>
+                        </a>
                     </div>
                 </div>
             </div>

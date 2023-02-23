@@ -6,6 +6,7 @@
     --font-size-subheading-mobile: 1.5rem;
     --font-size-ul: 1.2rem;
     --font-size-ul-mobile: 0.8rem;
+    --font-size-thumbnail: 1.3rem;
 }
 
 @keyframes fadeInAnimation {
@@ -53,7 +54,7 @@
     bottom: 20%;
 }
 
-.center-positioned {
+.center-adjusted {
     margin: 0 auto;
 }
 
@@ -76,6 +77,18 @@ a {
     background-color: rgb(240, 140, 155);
     color: black;
     transition: 0.2s;
+}
+
+.transparent {
+    background-color: transparent;
+    color: rgb(216, 209, 209);
+    border: 1px solid rgb(216, 209, 209);
+}
+
+.transparent:hover {
+    background-color: rgb(235, 225, 225);
+    color: black;
+    transition: 0.2s ease;
 }
 
 .mint {

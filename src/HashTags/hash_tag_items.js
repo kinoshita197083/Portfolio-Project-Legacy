@@ -21,7 +21,7 @@ export const hashTagItems = [
     },
     {
         tag: 'Unit-Testing',
-        project: 'uv_protection'
+        project: 'other'
     },
     {
         tag: 'Database-Daily-update-scheduling',
@@ -29,18 +29,38 @@ export const hashTagItems = [
     },
     {
         tag: '.Net-MVC',
-        project: 'uv_protection'
+        project: 'other'
     },
     {
         tag: 'Android-App',
-        project: 'uv_protection'
+        project: 'other'
     },
     {
         tag: 'Wordpress',
-        project: 'uv_protection'
+        project: 'reko'
+    },
+    {
+        tag: 'DynamoDB',
+        project: 'reko'
+    },
+    {
+        tag: 'RESTful API',
+        project: 'reko'
+    },
+    {
+        tag: 'Serverless-Backend',
+        project: 'reko'
+    },
+    {
+        tag: 'Solution-Architecture',
+        project: 'reko'
     },
     {
         tag: 'PHP',
-        project: 'uv_protection'
+        project: 'other'
+    },
+    {
+        tag: 'Wordpress',
+        project: 'other'
     },
 ]

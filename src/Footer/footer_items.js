@@ -16,7 +16,7 @@ export const footerItems = [
     },
     {
         item: 'Github',
-        url: 'https://github.com/',
+        url: 'https://github.com/kinoshita197083',
         icon: 'fa-brands fa-github'
     }
 ]

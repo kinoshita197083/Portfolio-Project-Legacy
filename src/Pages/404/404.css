@@ -1,0 +1,20 @@
+.center-positioned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+}
+
+.unavailable-page-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    width: 40%;
+    line-height: 200%;
+}
+
+@media (max-width: 800px) {
+    .unavailable-page-title {
+        width: 80%;
+        font-size: 0.8rem;
+    }
+}

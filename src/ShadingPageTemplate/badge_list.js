@@ -5,12 +5,12 @@ export const badgeItems = [
         description: "AWS solution architect associate badge"
     },
     {
-        href: "#",
+        href: "/NotFound",
         img: "/BPS_acredited.jpg",
         description: "BPS acredited Personality Test User Associate certificate"
     },
     {
-        href: "#",
+        href: "/NotFound",
         img: "/BPS_acredited.jpg",
         description: "BPS acredited Test User (Trait) certificate"
     },

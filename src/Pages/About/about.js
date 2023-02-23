@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import PhotoProfile from '../../PhotoProfile/photo_profile'
 import ShadingSectionEvenColumn from '../../ShadingPageTemplateEvenCol/shading_section_even_col';
 import './about.css'
@@ -11,33 +11,40 @@ const p2 = "I think I can consider myself an multicultural individual. I was bor
 
 const profile_subheader2 = "More about myself";
 
+
+
 export default function AboutPage() {
+
 
     const defaultPosition = () => {
         window.scrollTo(0, 0);
     }
 
-    useEffect(
-        defaultPosition
-    );
+    useEffect(defaultPosition, []);
 
     return (
         <>
-            <div className='container'>
-                <div className='even-columns'>
-                    <PhotoProfile />
-                    <div className='right-wrapper' style={{ paddingLeft: 0 }}>
-                        <h1 className='profile-header'>{profile_header}</h1>
-                        <h2 className='profile-subheader'>{profile_subheader}</h2>
-                        <p className='section-p1 text-align-left'>{p1}</p>
+            <div>
+                <div className='container'>
+                    <div className='even-columns'>
+                        <div className='left-wrapper'>
+                            <PhotoProfile />
+                        </div>
 
-                        <h2 className='profile-subheader'>{profile_subheader2}</h2>
-                        <p className='section-p1 text-align-left'>{p2}</p>
+                        <div className='right-wrapper' style={{ paddingLeft: 0 }}>
+                            <h1 className='profile-header'>{profile_header}</h1>
+                            <h2 className='profile-subheader'>{profile_subheader}</h2>
+                            <p className='section-p1 text-align-left'>{p1}</p>
+
+                            <h2 className='profile-subheader'>{profile_subheader2}</h2>
+                            <p className='section-p1 text-align-left'>{p2}</p>
+                        </div>
+
                     </div>
-
+                    <ShadingSectionEvenColumn />
                 </div>
-                <ShadingSectionEvenColumn />
             </div>
+
         </>
     )
 }
